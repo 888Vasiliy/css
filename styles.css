@@ -1,0 +1,126 @@
+
+*{margin:0px;}
+
+body{
+  background: rgba(153, 167, 29, 0.402);
+color: rgb(10, 10, 66);
+font: 20px normal 'Times New Roman', Times, serif;}
+
+
+.h2{
+  margin-left: 175px;}
+
+.hr{
+  width: 300px}
+
+a{
+  color: rgb(20, 8, 198);
+text-decoration: none;}
+
+.card{
+   margin-bottom: 10px;}
+
+.telega{
+    border-radius: 20px;  
+  margin-left: 260px;
+  border-color: rgb(1, 1, 15);
+  box-shadow: 5px 5px 5px;
+  color:rgba(8, 8, 91, 0.938);}
+
+
+a:hover{ 
+   text-decoration-line: underline;}
+
+a:active{
+   color: blue;}
+
+a:visited { 
+  color: blueviolet;}
+
+.avatar{
+   width: 250px; 
+  border-radius: 20px;
+  box-shadow: 15px 15px 15px;}
+
+
+
+.info {
+  display: flex;
+  margin-bottom: 20px;}
+
+ @media ( max-width:700px ) {
+   .info {
+     text-align: center;
+     display: block;
+   }
+ } 
+
+.info-text {
+  margin-left: 40px;}
+
+.info p {
+  color: rgb(6, 40, 3);
+  margin: 20px;
+  font-style: oblique;
+  font-weight: lighter;
+  text-decoration: none;}
+
+.content {
+  max-width: 750px;
+  margin: auto;
+  padding-top: 30px;}
+
+.ol{
+  padding-bottom: 20px;}
+
+.card {
+   padding: 30px 20 px;
+  background-color: blueviolet;
+  margin-bottom: 25px;
+  border-radius: 20px;}
+
+.bg-yellow{ 
+  background-color: rgba(255, 210, 127, 0.582);}
+
+.bg-green{
+  background-color: rgba(103, 198, 149, 0.306);}
+.bg-red{
+  background-color: rgba(255, 127, 138, 0.249);}
+.table{ 
+  width: 95%;}
+.table td{
+   padding-bottom: 10px;}
+
+.table td:nth-child(2) {
+  background-color: rgba(46, 142, 110, 0.135);}
+.youtube{
+  list-style: none;}
+.youtube li {
+  margin-bottom: 10px;padding-bottom:10px;border-bottom: 1px solid grey; } 
+
+.contact h2 {
+  text-align: center;}
+.form-group label{
+   display: block; font-size: 14px; color: grey;}
+
+.form-group input,.form-group textarea {
+   width: 80%; box-sizing: border-box; border: none;background: transparent;border-bottom: 1px solid blue; color: black;padding: 15 px 0 15px; outline: none; font-family: inherit;}
+.row {
+  display: flex;
+  margin-bottom: 20px;}
+
+.row > .form-group{ 
+  width: 50%;margin-right: 20px;}
+
+.btn {
+  background: rgba(49, 180, 82, 0.441);
+  padding: 15px 20px;
+  color: blue;
+  border: none;
+  font-family: inherit;
+  cursor: pointer;}
+
+.btn:hover{
+  opacity: 0.9;
+}
+
